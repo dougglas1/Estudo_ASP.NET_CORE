@@ -1,20 +1,23 @@
 ﻿using Douglas.Controllers.Interfaces;
-using Douglas.Dao;
 using Douglas.Dao.Interfaces;
 using Douglas.Models;
-using Douglas.UnitOfWork;
-using System;
+using DouglasInfra.UnitOfWork;
 using System.Collections.Generic;
 
 namespace Douglas.Controllers
 {
     public class ClienteController : IClienteController
     {
+        // Conexão
+        private readonly IUnitOfWork unitOfWork;
+
         private IClienteDao clienteDao;
 
-        public ClienteController()
+        public ClienteController(IClienteDao clienteDao,
+                                IUnitOfWork unitOfWork)
         {
-            clienteDao = new ClienteDao(UnitOfWorkFactory.Create());
+            this.unitOfWork = unitOfWork;
+            this.clienteDao = clienteDao;
         }
 
         public int Inserir(Cliente obj)
@@ -34,7 +37,8 @@ namespace Douglas.Controllers
 
         public List<Cliente> BuscarTodos()
         {
-            return clienteDao.BuscarTodos();
+            List<Cliente> listaCliente = clienteDao.BuscarTodos();
+            return listaCliente;
         }
 
         public Cliente BuscarPorId(double id)

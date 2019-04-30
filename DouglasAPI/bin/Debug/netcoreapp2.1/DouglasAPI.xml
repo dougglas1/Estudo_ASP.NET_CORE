@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DouglasAPI</name>
+    </assembly>
+    <members>
+        <member name="M:DouglasAPI.Controllers.ClienteController.BuscarTodosClientes">
+            <summary>
+            Buscar todos os clientes cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

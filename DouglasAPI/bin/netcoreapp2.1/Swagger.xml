@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DouglasAPI</name>
+    </assembly>
+    <members>
+        <member name="M:DouglasAPI.Controllers.ValuesController.Get">
+            <summary>
+            GET api/values
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DouglasAPI.Controllers.ValuesController.Get(System.Int32)">
+             <summary>
+             Cria um item na To-do list.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 POST /Todo
+                 {
+                    "id": 1,
+                    "name": "Item1",
+                    "iscomplete": true
+                 }
+            
+             </remarks>
+             <param name="id"></param>
+             <returns>Um novo item criado</returns>
+             <response code="201">Retorna o novo item criado</response>
+             <response code="400">Se o item não for criado</response>  
+        </member>
+        <member name="M:DouglasAPI.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            POST api/values
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:DouglasAPI.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            PUT api/values/5
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:DouglasAPI.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            DELETE api/values/5
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>

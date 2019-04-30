@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Douglas", "Douglas\Douglas.csproj", "{783A34CD-0C45-4FB8-AEF1-4CD33F69FA3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Douglas", "Douglas\Douglas.csproj", "{783A34CD-0C45-4FB8-AEF1-4CD33F69FA3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DouglasAPI", "DouglasAPI\DouglasAPI.csproj", "{68EEFEC8-73AE-4DEA-B628-D350565455A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DouglasAgendador", "DouglasAgendador\DouglasAgendador.csproj", "{89DC9B75-1FA0-4726-98BD-CA295D16BF3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DouglasBiblioteca", "DouglasBiblioteca\DouglasBiblioteca.csproj", "{8254955F-DBAC-485A-8441-8944DCCAFB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DouglasInfra", "DouglasInfra\DouglasInfra.csproj", "{555BAA18-0F62-486F-8865-E78E75E0EA91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{783A34CD-0C45-4FB8-AEF1-4CD33F69FA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{783A34CD-0C45-4FB8-AEF1-4CD33F69FA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{783A34CD-0C45-4FB8-AEF1-4CD33F69FA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EEFEC8-73AE-4DEA-B628-D350565455A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EEFEC8-73AE-4DEA-B628-D350565455A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EEFEC8-73AE-4DEA-B628-D350565455A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EEFEC8-73AE-4DEA-B628-D350565455A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DC9B75-1FA0-4726-98BD-CA295D16BF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DC9B75-1FA0-4726-98BD-CA295D16BF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DC9B75-1FA0-4726-98BD-CA295D16BF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DC9B75-1FA0-4726-98BD-CA295D16BF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8254955F-DBAC-485A-8441-8944DCCAFB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8254955F-DBAC-485A-8441-8944DCCAFB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8254955F-DBAC-485A-8441-8944DCCAFB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8254955F-DBAC-485A-8441-8944DCCAFB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555BAA18-0F62-486F-8865-E78E75E0EA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555BAA18-0F62-486F-8865-E78E75E0EA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555BAA18-0F62-486F-8865-E78E75E0EA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555BAA18-0F62-486F-8865-E78E75E0EA91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
