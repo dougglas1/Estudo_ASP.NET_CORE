@@ -24,12 +24,10 @@ namespace DouglasInfra.UnitOfWork
 
             try
             {
-                //return ConfigurationManager.ConnectionStrings[connectionString].ConnectionString;
                 return @"Data Source=DESKTOP-DGNEF60\SQLEXPRESS;Initial Catalog=DOUGLASBD;Integrated Security=True;User Id=UserDouglas;Password=douglas123;";
             }
             catch (Exception)
             {
-                //throw new ConfigurationErrorsException($"String de conexão {connectionString} não foi encontrada no arquivo de configuração.");
                 throw new ArgumentException("Conexão não encontrada");
             }
         }

@@ -6,20 +6,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Menu\Cabecalho.cshtml" />
+    <Content Remove="Views\Menu\Index.cshtml" />
+    <Content Remove="Views\Menu\Rodape.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Menu\Cabecalho.cshtml" />
+    <None Include="Views\Menu\Index.cshtml" />
+    <None Include="Views\Menu\Rodape.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="bootstrap" Version="4.3.1" />
-    <PackageReference Include="Dapper" Version="1.60.6" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
-    <PackageReference Include="SimpleInjector" Version="4.5.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Login\" />
-    <Folder Include="Views\Menu\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\DouglasBiblioteca\DouglasBiblioteca.csproj" />
     <ProjectReference Include="..\DouglasInfra\DouglasInfra.csproj" />
   </ItemGroup>
 

@@ -22,7 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Douglas\Douglas.csproj" />
+    <ProjectReference Include="..\DouglasBiblioteca\DouglasBiblioteca.csproj" />
+    <ProjectReference Include="..\DouglasInfra\DouglasInfra.csproj" />
   </ItemGroup>
 
 </Project>

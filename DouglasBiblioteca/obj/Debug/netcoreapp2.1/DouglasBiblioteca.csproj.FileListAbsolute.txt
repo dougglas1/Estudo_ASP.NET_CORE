@@ -6,3 +6,7 @@ C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasBiblioteca\obj\Debug\netco
 C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasBiblioteca\obj\Debug\netcoreapp2.1\DouglasBiblioteca.AssemblyInfo.cs
 C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasBiblioteca\obj\Debug\netcoreapp2.1\DouglasBiblioteca.dll
 C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasBiblioteca\obj\Debug\netcoreapp2.1\DouglasBiblioteca.pdb
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasBiblioteca\obj\Debug\netcoreapp2.1\DouglasBiblioteca.csprojAssemblyReference.cache
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasBiblioteca\bin\Debug\netcoreapp2.1\DouglasInfra.dll
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasBiblioteca\bin\Debug\netcoreapp2.1\DouglasInfra.pdb
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasBiblioteca\obj\Debug\netcoreapp2.1\DouglasBiblioteca.csproj.CopyComplete

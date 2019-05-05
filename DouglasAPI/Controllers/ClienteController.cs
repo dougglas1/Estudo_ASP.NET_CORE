@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using Douglas.Controllers.Interfaces;
-using Douglas.Models;
+using DouglasBiblioteca.Controllers.Interfaces;
+using DouglasBiblioteca.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DouglasAPI.Controllers

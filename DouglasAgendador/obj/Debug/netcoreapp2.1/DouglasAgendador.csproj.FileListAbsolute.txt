@@ -29,3 +29,4 @@ C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasAgendador\obj\Debug\netcor
 C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasAgendador\obj\Debug\netcoreapp2.1\DouglasAgendador.dll
 C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasAgendador\obj\Debug\netcoreapp2.1\DouglasAgendador.pdb
 C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasAgendador\obj\Debug\netcoreapp2.1\DouglasAgendador.csproj.CopyComplete
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasAgendador\obj\Debug\netcoreapp2.1\DouglasAgendador.csprojAssemblyReference.cache

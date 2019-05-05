@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "f204042a2a655da3815b5df2c97a53d305be6a2a"
+    "signature": "d82b6c4ccce5cb3a5bf4d1e49c26619d4ce0285b"
   },
   "compilationOptions": {
     "defines": [
@@ -24,13 +24,12 @@
     ".NETCoreApp,Version=v2.1": {
       "Douglas/1.0.0": {
         "dependencies": {
-          "Dapper": "1.60.6",
+          "DouglasBiblioteca": "1.0.0",
           "DouglasInfra": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
-          "SimpleInjector": "4.5.1",
           "bootstrap": "4.3.1"
         },
         "runtime": {
@@ -439,25 +438,6 @@
           }
         }
       },
-      "SimpleInjector/4.5.1": {
-        "dependencies": {
-          "System.ComponentModel": "4.0.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/SimpleInjector.dll": {
-            "assemblyVersion": "4.5.1.0",
-            "fileVersion": "4.5.1.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/SimpleInjector.dll": {}
-        }
-      },
-      "System.ComponentModel/4.0.1": {
-        "dependencies": {
-          "System.Runtime": "4.3.0"
-        }
-      },
       "System.Composition/1.0.31": {
         "dependencies": {
           "System.Composition.AttributedModel": "1.0.31",
@@ -676,6 +656,19 @@
             "assemblyVersion": "4.1.1.0",
             "fileVersion": "4.6.26515.6"
           }
+        }
+      },
+      "DouglasBiblioteca/1.0.0": {
+        "dependencies": {
+          "Dapper": "1.60.6",
+          "DouglasInfra": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "2.1.1"
+        },
+        "runtime": {
+          "DouglasBiblioteca.dll": {}
+        },
+        "compile": {
+          "DouglasBiblioteca.dll": {}
         }
       },
       "DouglasInfra/1.0.0": {
@@ -3784,20 +3777,6 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
-    "SimpleInjector/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qCSxKRRbg6lKfCZNGEK0ezldKPEidU3pB2NJ17Mh7x81b1ISRBdf2iUfjUh+mhvOohuWlFVVErRNxMJWbbx9Jg==",
-      "path": "simpleinjector/4.5.1",
-      "hashPath": "simpleinjector.4.5.1.nupkg.sha512"
-    },
-    "System.ComponentModel/4.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3AOvy/bB7s8yAkolZOlqGeLDrPySuYsgkk7hKIBWn5a/Le7V16PDYQIzj7w7hi4UUXXmEmN/ZehNlAi5eD9r5w==",
-      "path": "system.componentmodel/4.0.1",
-      "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
-    },
     "System.Composition/1.0.31": {
       "type": "package",
       "serviceable": true,
@@ -3881,6 +3860,11 @@
       "sha512": "sha512-16EVkWmNnoH3/Yj9c5s5VuLK5Uv/Dnkc3P2kMmnD7wJcUuvcHVvM2IhVJanf2hHRZUitH+cIkPCPHrBoCXc7Rw==",
       "path": "system.text.encoding.codepages/4.5.0",
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    },
+    "DouglasBiblioteca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DouglasInfra/1.0.0": {
       "type": "project",
