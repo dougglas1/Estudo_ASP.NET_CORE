@@ -4444,6 +4444,16 @@
           "bin/placeholder/DouglasBiblioteca.dll": {}
         }
       },
+      "DouglasComuns/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DouglasComuns.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DouglasComuns.dll": {}
+        }
+      },
       "DouglasInfra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -12056,6 +12066,11 @@
       "path": "../DouglasBiblioteca/DouglasBiblioteca.csproj",
       "msbuildProject": "../DouglasBiblioteca/DouglasBiblioteca.csproj"
     },
+    "DouglasComuns/1.0.0": {
+      "type": "project",
+      "path": "../DouglasComuns/DouglasComuns.csproj",
+      "msbuildProject": "../DouglasComuns/DouglasComuns.csproj"
+    },
     "DouglasInfra/1.0.0": {
       "type": "project",
       "path": "../DouglasInfra/DouglasInfra.csproj",
@@ -12065,6 +12080,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "DouglasBiblioteca >= 1.0.0",
+      "DouglasComuns >= 1.0.0",
       "DouglasInfra >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
@@ -12104,6 +12120,9 @@
           "projectReferences": {
             "C:\\Users\\dougg\\Desktop\\Desenvolvimento\\Douglas\\DouglasBiblioteca\\DouglasBiblioteca.csproj": {
               "projectPath": "C:\\Users\\dougg\\Desktop\\Desenvolvimento\\Douglas\\DouglasBiblioteca\\DouglasBiblioteca.csproj"
+            },
+            "C:\\Users\\dougg\\Desktop\\Desenvolvimento\\Douglas\\DouglasComuns\\DouglasComuns.csproj": {
+              "projectPath": "C:\\Users\\dougg\\Desktop\\Desenvolvimento\\Douglas\\DouglasComuns\\DouglasComuns.csproj"
             },
             "C:\\Users\\dougg\\Desktop\\Desenvolvimento\\Douglas\\DouglasInfra\\DouglasInfra.csproj": {
               "projectPath": "C:\\Users\\dougg\\Desktop\\Desenvolvimento\\Douglas\\DouglasInfra\\DouglasInfra.csproj"

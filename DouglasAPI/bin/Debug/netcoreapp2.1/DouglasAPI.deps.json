@@ -25,6 +25,7 @@
       "DouglasAPI/1.0.0": {
         "dependencies": {
           "DouglasBiblioteca": "1.0.0",
+          "DouglasComuns": "1.0.0",
           "DouglasInfra": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -419,6 +420,14 @@
         },
         "compile": {
           "DouglasBiblioteca.dll": {}
+        }
+      },
+      "DouglasComuns/1.0.0": {
+        "runtime": {
+          "DouglasComuns.dll": {}
+        },
+        "compile": {
+          "DouglasComuns.dll": {}
         }
       },
       "DouglasInfra/1.0.0": {
@@ -3493,6 +3502,11 @@
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
     },
     "DouglasBiblioteca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DouglasComuns/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

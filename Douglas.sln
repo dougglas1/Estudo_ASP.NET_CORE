@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DouglasAPI", "DouglasAPI\Do
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DouglasAgendador", "DouglasAgendador\DouglasAgendador.csproj", "{89DC9B75-1FA0-4726-98BD-CA295D16BF3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DouglasBiblioteca", "DouglasBiblioteca\DouglasBiblioteca.csproj", "{8254955F-DBAC-485A-8441-8944DCCAFB7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DouglasBiblioteca", "DouglasBiblioteca\DouglasBiblioteca.csproj", "{8254955F-DBAC-485A-8441-8944DCCAFB7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DouglasInfra", "DouglasInfra\DouglasInfra.csproj", "{555BAA18-0F62-486F-8865-E78E75E0EA91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DouglasInfra", "DouglasInfra\DouglasInfra.csproj", "{555BAA18-0F62-486F-8865-E78E75E0EA91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DouglasComuns", "DouglasComuns\DouglasComuns.csproj", "{F3B5E2BB-99B7-4CC8-814D-576C466B3AAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{555BAA18-0F62-486F-8865-E78E75E0EA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{555BAA18-0F62-486F-8865-E78E75E0EA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{555BAA18-0F62-486F-8865-E78E75E0EA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B5E2BB-99B7-4CC8-814D-576C466B3AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B5E2BB-99B7-4CC8-814D-576C466B3AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B5E2BB-99B7-4CC8-814D-576C466B3AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B5E2BB-99B7-4CC8-814D-576C466B3AAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

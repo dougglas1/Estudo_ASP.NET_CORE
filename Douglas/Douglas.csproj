@@ -3,15 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+    <RootNamespace>Douglas</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\CSHTML\Cliente.cshtml" />
     <Content Remove="Views\Menu\Cabecalho.cshtml" />
     <Content Remove="Views\Menu\Index.cshtml" />
     <Content Remove="Views\Menu\Rodape.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\CSHTML\Cliente.cshtml" />
     <None Include="Views\Menu\Cabecalho.cshtml" />
     <None Include="Views\Menu\Index.cshtml" />
     <None Include="Views\Menu\Rodape.cshtml" />
@@ -26,7 +29,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DouglasBiblioteca\DouglasBiblioteca.csproj" />
+    <ProjectReference Include="..\DouglasComuns\DouglasComuns.csproj" />
     <ProjectReference Include="..\DouglasInfra\DouglasInfra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,9 @@
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasComuns\bin\Debug\netcoreapp2.1\DouglasComuns.deps.json
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasComuns\bin\Debug\netcoreapp2.1\DouglasComuns.dll
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasComuns\bin\Debug\netcoreapp2.1\DouglasComuns.pdb
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasComuns\obj\Debug\netcoreapp2.1\DouglasComuns.csproj.CoreCompileInputs.cache
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasComuns\obj\Debug\netcoreapp2.1\DouglasComuns.AssemblyInfoInputs.cache
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasComuns\obj\Debug\netcoreapp2.1\DouglasComuns.AssemblyInfo.cs
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasComuns\obj\Debug\netcoreapp2.1\DouglasComuns.dll
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasComuns\obj\Debug\netcoreapp2.1\DouglasComuns.pdb
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\DouglasComuns\obj\Debug\netcoreapp2.1\DouglasComuns.csprojAssemblyReference.cache

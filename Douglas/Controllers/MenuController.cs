@@ -12,5 +12,15 @@ namespace Douglas.Controllers
         {
             return View();
         }
+
+        public IActionResult Cabecalho()
+        {
+            return View();
+        }
+
+        public IActionResult Rodape()
+        {
+            return View();
+        }
     }
 }

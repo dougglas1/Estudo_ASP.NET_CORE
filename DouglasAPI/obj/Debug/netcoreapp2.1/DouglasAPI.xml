@@ -4,10 +4,38 @@
         <name>DouglasAPI</name>
     </assembly>
     <members>
-        <member name="M:DouglasAPI.Controllers.ClienteController.BuscarTodosClientes">
+        <member name="M:DouglasAPI.Controllers.ClienteController.BuscarTodos">
             <summary>
             Buscar todos os clientes cadastrados
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DouglasAPI.Controllers.ClienteController.BuscarPorID(System.Double)">
+            <summary>
+            Buscar o Cliente pelo ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DouglasAPI.Controllers.ClienteController.Inserir(DouglasBiblioteca.Models.Cliente)">
+            <summary>
+            Inserir um novo Cliente
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DouglasAPI.Controllers.ClienteController.Atualizar(DouglasBiblioteca.Models.Cliente)">
+            <summary>
+            Atualizar um Cliente
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DouglasAPI.Controllers.ClienteController.ExcluirPorId(System.Double)">
+            <summary>
+            Excluir Cliente por ID
+            </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
     </members>

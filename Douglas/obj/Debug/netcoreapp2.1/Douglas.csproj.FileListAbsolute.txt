@@ -25,3 +25,5 @@ C:\Users\dougg\Desktop\Desenvolvimento\Douglas\Douglas\obj\Debug\netcoreapp2.1\D
 C:\Users\dougg\Desktop\Desenvolvimento\Douglas\Douglas\obj\Debug\netcoreapp2.1\Douglas.csproj.CopyComplete
 C:\Users\dougg\Desktop\Desenvolvimento\Douglas\Douglas\obj\Debug\netcoreapp2.1\Douglas.dll
 C:\Users\dougg\Desktop\Desenvolvimento\Douglas\Douglas\obj\Debug\netcoreapp2.1\Douglas.pdb
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\Douglas\bin\Debug\netcoreapp2.1\DouglasComuns.dll
+C:\Users\dougg\Desktop\Desenvolvimento\Douglas\Douglas\bin\Debug\netcoreapp2.1\DouglasComuns.pdb

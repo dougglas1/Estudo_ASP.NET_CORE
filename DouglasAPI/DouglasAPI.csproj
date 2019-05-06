@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DouglasBiblioteca\DouglasBiblioteca.csproj" />
+    <ProjectReference Include="..\DouglasComuns\DouglasComuns.csproj" />
     <ProjectReference Include="..\DouglasInfra\DouglasInfra.csproj" />
   </ItemGroup>
 

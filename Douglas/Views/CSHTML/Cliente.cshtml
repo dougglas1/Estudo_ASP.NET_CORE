@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <title>Cadastro de Cliente</title>
+</head>
+<body>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <div>
+            <label>Nome:</label>
+            <input id="Nome" name="Nome" />
+        </div>
+        <div></div>
+        <div>
+            <label>Genero:</label>
+            <input id="Genero" name="Genero" />
+        </div>
+        <div></div>
+        <div>
+            <label>Data_Nascimento:</label>
+            <input id="Data_Nascimento" name="Data_Nascimento" />
+        </div>
+        <div></div>
+        <div>
+            <label>Telefone:</label>
+            <input id="Telefone" name="Telefone" />
+        </div>
+        <div></div>
+        <div class="button">
+            <button id="Salvar" type="submit">Salvar Cliente</button>
+        </div>
+    </form>   
+    <script src="~/Views/JS/Cliente.js"></script>
+</body>
+</html>
